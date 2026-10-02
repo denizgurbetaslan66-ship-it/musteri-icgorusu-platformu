@@ -91,8 +91,12 @@ Proje Yapısı
 
  Yol Haritası
 
-- [ ] Makine öğrenmesi tabanlı duygu ve konu sınıflandırması (ör. BERTurk)
-- [ ] Zaman serisi trend analizi (tarih sütunu eklendiğinde)
-- [ ] Kendi CSV/Excel dosyanı yükleme desteği
+-  Makine öğrenmesi tabanlı duygu ve konu sınıflandırması (ör. BERTurk)
+-  Zaman serisi trend analizi (tarih sütunu eklendiğinde)
+-  Kendi CSV/Excel dosyanı yükleme desteği
+
+Sistem Görselleri:
+<img width="1600" height="757" alt="image" src="https://github.com/user-attachments/assets/8286747d-fda0-424e-8163-52292254745a" />
+
 
 

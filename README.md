@@ -1,4 +1,4 @@
-# 📊 AI Destekli Müşteri İçgörüsü & Ses Analiz Platformu
+AI Destekli Müşteri İçgörüsü & Ses Analiz Platformu
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.50%2B-FF4B4B?logo=streamlit&logoColor=white)
@@ -13,7 +13,7 @@ karar desteği sunan interaktif bir veri analitiği panelidir.
 <!-- Ekran görüntüsünü docs/screenshot.png olarak ekleyip aşağıdaki satırın yorumunu kaldırabilirsiniz -->
 <!-- ![Dashboard](docs/screenshot.png) -->
 
-## ✨ Özellikler
+ Özellikler
 
 | Bölüm | Açıklama |
 |---|---|
@@ -23,7 +23,7 @@ karar desteği sunan interaktif bir veri analitiği panelidir.
 | **Yorum Gezgini** | Filtrelenebilir yorum tablosu ve CSV dışa aktarma |
 | **Filtreler** | Duygu, kategori, yorum uzunluğu, Türkçe karakterden bağımsız serbest metin arama, tekrarlayan yorumları çıkarma |
 
-## 🧠 Metodoloji
+ Metodoloji
 
 1. **Türkçe uyumlu normalleştirme:** `İ/ı` dönüşümü, aksan temizleme ve boşluk düzeltme.
    Böylece `ulaşmadı`, `ulasmadi` ve `İADE` gibi yazımların hepsi doğru eşleşir.
@@ -43,7 +43,7 @@ karar desteği sunan interaktif bir veri analitiği panelidir.
 
 Genel dağılım: **%81,9 pozitif · %16,2 negatif · %1,9 nötr**.
 
-## 🚀 Kurulum
+Kurulum
 
 ```bash
 git clone https://github.com/<kullanici-adi>/<repo-adi>.git
@@ -58,14 +58,14 @@ streamlit run app.py
 
 Uygulama `http://localhost:8501` adresinde açılır. İlk açılışta veri seti analiz edilir ve önbelleğe alınır.
 
-## 🧪 Testler
+ Testler
 
 ```bash
 pip install -r requirements-dev.txt
 pytest -q
 ```
 
-## 📁 Proje Yapısı
+Proje Yapısı
 
 ```
 .
@@ -82,24 +82,17 @@ pytest -q
 └── LICENSE
 ```
 
-## ☁️ Yayına Alma (Streamlit Community Cloud)
 
-1. Projeyi GitHub'a yükleyin.
-2. [share.streamlit.io](https://share.streamlit.io) üzerinden reponuzu seçin.
-3. Ana dosya olarak `app.py` belirtin ve **Deploy** edin.
-
-## ⚠️ Sınırlılıklar
+ Sınırlılıklar
 
 - Kategorizasyon anahtar kelime tabanlıdır; ironi veya birden fazla konuyu içeren yorumlarda hata payı vardır.
 - Duygu etiketleri veri setinden gelir; bu projede model ile tahmin edilmez.
 - Veri setinde yaklaşık 4.700 birebir tekrar eden kayıt bulunur; yan menüden çıkarılabilir.
 
-## 🛣️ Yol Haritası
+ Yol Haritası
 
 - [ ] Makine öğrenmesi tabanlı duygu ve konu sınıflandırması (ör. BERTurk)
 - [ ] Zaman serisi trend analizi (tarih sütunu eklendiğinde)
 - [ ] Kendi CSV/Excel dosyanı yükleme desteği
 
-## 📄 Lisans
 
-MIT Lisansı ile dağıtılmaktadır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
